@@ -1,0 +1,90 @@
+# ============================================================
+# FAQ Page Content
+# ============================================================
+# Frequently asked questions. Add, remove, or edit items.
+# `category` groups questions into filter tabs.
+# ============================================================
+
+header:
+  eyebrow: "Help"
+  title: "Frequently Asked Questions"
+  description: "Everything you need to know before joining Spear Royale. Can't find your answer? Ask in our Discord."
+
+# Filter categories shown as tabs
+categories:
+  - label: "All"
+    active: true
+  - label: "Getting Started"
+    active: false
+  - label: "Gameplay"
+    active: false
+  - label: "Store"
+    active: false
+  - label: "Support"
+    active: false
+
+# FAQ items
+items:
+  - question: "What is Spear Royale?"
+    answer: "Spear Royale is a competitive Minecraft battle royale server. Up to 75 players in Solo, 100 in Duos, or 120 in Squads drop from a happy ghast, loot chests, and fight to be the last player or team standing."
+    category: "Getting Started"
+
+  - question: "How do I join the server?"
+    answer: "Open Minecraft Java Edition, click Multiplayer, add a server, and enter SpearRoyale.com as the address. You can also copy the IP directly from the home page with the Copy IP button."
+    category: "Getting Started"
+
+  - question: "What version is supported?"
+    answer: "We support Java Edition 1.21.x. For the best experience and newest features we recommend playing on the latest 1.21.x release."
+    category: "Getting Started"
+
+  - question: "How do matches work?"
+    answer: "Matches are announced via a Discord webhook that pings @events with a 15-minute timer. You get a 5-minute and 1-minute warning. Once the match starts, no one can join. Players drop from a happy ghast, fly down with an elytra, and the match begins with a 2-minute grace period."
+    category: "Gameplay"
+
+  - question: "How do I form a team?"
+    answer: "Use /team invite <user> to create or join a team. Teams must have the exact player count for the mode (2 for Duos, 4 for Squads). Un-teamed players are auto-assigned to fill teams before the purge."
+    category: "Gameplay"
+
+  - question: "What are the special gamemodes?"
+    answer: "Chooseable gamemodes (can stack) include Hungerless Spear, Added Elytra, Crazy Enchants, and Random Weapon. Random gamemodes (one per game, or none) include Lifesteal, Smaller Map, and Hardcore."
+    category: "Gameplay"
+
+  - question: "How does the zone work?"
+    answer: "The zone is circular and starts invisible. After 5 minutes it begins closing over 15 minutes, dealing increasing damage to anyone outside. The final zone has a 25-block radius (50-block diameter). After 20 minutes it shrinks 1 block per 5 seconds until fully closed."
+    category: "Gameplay"
+
+  - question: "What happens if I leave during a match?"
+    answer: "If you leave while alive, you have 60 seconds to rejoin or you die and start spectating. Your loot drops where you died for anyone to pick up."
+    category: "Gameplay"
+
+  - question: "How do I purchase a rank?"
+    answer: "Visit our store at store.spearroyale.com, choose a rank, and complete checkout. Your rank is automatically applied to your account within a few minutes after purchase."
+    category: "Store"
+
+  - question: "Are ranks permanent?"
+    answer: "Yes. All ranks are one-time purchases with no subscription and no expiry. You buy it once and keep it forever."
+    category: "Store"
+
+  - question: "What payment methods do you accept?"
+    answer: "We accept all major credit and debit cards through our secure checkout. We never store your card details."
+    category: "Store"
+
+  - question: "Can I get a refund?"
+    answer: "Refunds are handled case by case. Please open a ticket in Discord. Note that chargebacks result in a permanent ban."
+    category: "Store"
+
+  - question: "Where can I get support?"
+    answer: "Our staff team is available on Discord. Open a ticket in the #support channel and a staff member will help you with account, payment, or gameplay issues."
+    category: "Support"
+
+  - question: "How do I appeal a punishment?"
+    answer: "Open a ticket in Discord and select Punishment Appeal. Include your username, the punishment ID, and why you believe it was issued in error."
+    category: "Support"
+
+  - question: "How do I join the Discord?"
+    answer: "Click any Join Discord button on this site, or go to discord.gg/spearroyale. The Discord is where we post match announcements, run community events, and share updates."
+    category: "Support"
+
+  - question: "How do I report a player?"
+    answer: "Open a ticket in Discord with evidence (screenshots or video). Include the player's username, what they did, and when it happened. A moderator will review your report."
+    category: "Support"

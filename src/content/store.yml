@@ -1,0 +1,103 @@
+# ============================================================
+# Store Page Content
+# ============================================================
+# Ranks and cosmetic items shown on the /store page.
+# `featured` marks a rank with a "Popular" badge.
+# `accent` is a Tailwind text color class.
+# `glow` is an rgba color for the glow effect.
+# ============================================================
+
+header:
+  eyebrow: "Store"
+  title: "Support the Server"
+  description: "Every purchase keeps Spear Royale online and supports development. Ranks are permanent — buy once, keep forever."
+
+# Rank cards
+ranks:
+  - name: "Knight"
+    tag: "KNIGHT"
+    icon: "Shield"
+    description: "Your first step into ranked play with essential perks."
+    perks:
+      - "Colored chat name"
+      - "/kit knight daily"
+      - "2 home slots"
+      - "Priority queue"
+    price: "$9.99"
+    accent: "text-sky-400"
+    glow: "rgba(56,189,248,0.35)"
+    featured: false
+
+  - name: "Warlord"
+    tag: "WARLORD"
+    icon: "Swords"
+    description: "For serious competitors who want an edge in the arena."
+    perks:
+      - "Everything in Knight"
+      - "/kit warlord daily"
+      - "5 home slots"
+      - "Exclusive cape"
+      - "+10% XP boost"
+    price: "$19.99"
+    accent: "text-brand-400"
+    glow: "rgba(0,226,122,0.4)"
+    featured: true
+
+  - name: "Champion"
+    tag: "CHAMPION"
+    icon: "Crown"
+    description: "Top-tier status with the full set of competitive perks."
+    perks:
+      - "Everything in Warlord"
+      - "/kit champion daily"
+      - "10 home slots"
+      - "Animated prefix"
+      - "+25% XP boost"
+      - "Custom kill effect"
+    price: "$34.99"
+    accent: "text-amber-400"
+    glow: "rgba(251,191,36,0.4)"
+    featured: false
+
+  - name: "Royale"
+    tag: "ROYALE"
+    icon: "Gem"
+    description: "The ultimate rank. Everything unlocked, forever."
+    perks:
+      - "Everything in Champion"
+      - "Unlimited homes"
+      - "+50% XP boost"
+      - "Exclusive Royale cosmetics"
+      - "Early event access"
+      - "Discord role"
+    price: "$59.99"
+    accent: "text-fuchsia-400"
+    glow: "rgba(232,121,249,0.4)"
+    featured: false
+
+# Cosmetic items (optional section)
+cosmetics:
+  - icon: "Sparkles"
+    name: "Kill Effect Pack"
+    description: "Custom particle effects on every kill."
+    price: "$4.99"
+  - icon: "Wind"
+    name: "Cape Bundle"
+    description: "All 8 exclusive capes, permanently unlocked."
+    price: "$6.99"
+  - icon: "Flame"
+    name: "Trail Effects"
+    description: "Animated trails while sprinting and flying."
+    price: "$3.99"
+
+# Store info
+storeInfo:
+  - icon: "Shield"
+    title: "Secure Checkout"
+    description: "All payments are processed securely. We never store your card details."
+  - icon: "Zap"
+    title: "Instant Delivery"
+    description: "Ranks and cosmetics are applied to your account within minutes."
+  - icon: "RefreshCw"
+    title: "Permanent"
+    description: "Ranks are one-time purchases. No subscriptions, no expiry."

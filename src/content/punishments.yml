@@ -1,0 +1,93 @@
+# ============================================================
+# Punishments Page Content
+# ============================================================
+# Shows recent punishments and the appeal process.
+# Replace `recent` entries with real data from an API when
+# available. The component reads this array directly.
+# ============================================================
+
+header:
+  eyebrow: "Transparency"
+  title: "Punishments"
+  description: "We believe in transparency. Below is a log of recent punishments issued on Spear Royale. If you believe a punishment was issued in error, you can appeal."
+
+# Appeal info card
+appeal:
+  title: "Want to appeal a punishment?"
+  description: "Open a ticket in our Discord server and select the Punishment Appeal option. Include your username, the punishment ID, and why you believe it was issued in error."
+  buttonText: "Open Appeal Ticket"
+  buttonHref: "https://discord.gg/spearroyale"
+
+# Punishment types legend
+types:
+  - type: "Ban"
+    icon: "Ban"
+    color: "text-red-500"
+    description: "Account permanently removed from the server."
+  - type: "Temp Ban"
+    icon: "Clock"
+    color: "text-orange-500"
+    description: "Temporary removal from the server with a set duration."
+  - type: "Mute"
+    icon: "MessageCircleOff"
+    color: "text-amber-400"
+    description: "Player cannot send chat messages."
+  - type: "Kick"
+    icon: "LogOut"
+    color: "text-slate-400"
+    description: "Player removed from the server but can rejoin."
+
+# Recent punishments log
+# `type` must match one of the types above.
+# `reason` is the staff-written reason.
+# `staff` is the staff member who issued it.
+# `date` is a display string.
+recent:
+  - id: "PN-0042"
+    player: "xX_HackerBoi_Xx"
+    type: "Ban"
+    reason: "Kill aura / reach hacks detected by anti-cheat"
+    staff: "Vexinity"
+    date: "2026-08-28"
+  - id: "PN-0041"
+    player: "Griefer99"
+    type: "Temp Ban"
+    reason: "Teaming in Solo match (3rd offense)"
+    staff: "ShadowKnight"
+    date: "2026-08-27"
+  - id: "PN-0040"
+    player: "SpamLord"
+    type: "Mute"
+    reason: "Chat spamming — 12 messages in 10 seconds"
+    staff: "AetherBlade"
+    date: "2026-08-27"
+  - id: "PN-0039"
+    player: "AltAccount_01"
+    type: "Ban"
+    reason: "Alt account to bypass active temp ban"
+    staff: "Devamy"
+    date: "2026-08-26"
+  - id: "PN-0038"
+    player: "ToxicGamer"
+    type: "Mute"
+    reason: "Harassment of another player in chat"
+    staff: "ShadowKnight"
+    date: "2026-08-25"
+  - id: "PN-0037"
+    player: "FlyModder"
+    type: "Ban"
+    reason: "Fly hack — confirmed via replay"
+    staff: "Vexinity"
+    date: "2026-08-24"
+  - id: "PN-0036"
+    player: "RageQuitter"
+    type: "Kick"
+    reason: "Inappropriate language directed at staff"
+    staff: "AetherBlade"
+    date: "2026-08-23"
+  - id: "PN-0035"
+    player: "XrayUser"
+    type: "Ban"
+    reason: "X-ray texture pack — confirmed by staff review"
+    staff: "Devamy"
+    date: "2026-08-22"

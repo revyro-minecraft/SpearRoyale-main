@@ -1,0 +1,51 @@
+# ============================================================
+# Spear Royale — Global Site Settings
+# ============================================================
+# Edit this file to change the server name, IP, links, and
+# branding used across every page on the website.
+# ============================================================
+
+server:
+  name: "Spear Royale"
+  ip: "SpearRoyale.com"
+  discordUrl: "https://discord.gg/spearroyale"
+  discordShortUrl: "discord.gg/spearroyale"
+  storeUrl: "https://store.spearroyale.com"
+  version: "Java Edition 1.21.x"
+  region: "EU"
+
+# Navigation tabs — order here is the order shown in the navbar.
+# Each entry needs a `label` (shown in the menu) and a `path`
+# (the URL path, must match a route in the router).
+nav:
+  - label: "Home"
+    path: "/"
+  - label: "How to Play"
+    path: "/how-to-play"
+  - label: "Leaderboard"
+    path: "/leaderboard"
+  - label: "Rules"
+    path: "/rules"
+  - label: "Staff"
+    path: "/staff"
+  - label: "Store"
+    path: "/store"
+  - label: "Punishments"
+    path: "/punishments"
+  - label: "News"
+    path: "/news"
+
+# Footer links — shown at the bottom of every page.
+footerLinks:
+  - label: "Home"
+    href: "/"
+  - label: "Store"
+    href: "https://store.spearroyale.com"
+  - label: "Discord"
+    href: "https://discord.gg/spearroyale"
+  - label: "FAQ"
+    href: "/faq"
+  - label: "Terms"
+    href: "#"
+  - label: "Privacy"
+    href: "#"

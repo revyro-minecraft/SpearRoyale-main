@@ -1,0 +1,141 @@
+# ============================================================
+# How to Play Page Content
+# ============================================================
+# Explains the battle royale format, match flow, gamemodes,
+# teams, border/zone, and loot system.
+# ============================================================
+
+header:
+  eyebrow: "Getting Started"
+  title: "How to Play"
+  description: "Everything you need to know before dropping into your first Spear Royale match."
+
+# Match format overview cards
+overview:
+  - icon: "Users"
+    title: "Solo"
+    description: "75 players. Everyone for themselves. Last one standing wins."
+    value: "75 max"
+  - icon: "Users"
+    title: "Duos"
+    description: "100 players in teams of two. Fight together or fall together."
+    value: "100 max"
+  - icon: "Users"
+    title: "Squads"
+    description: "120 players in teams of four. Coordinate and dominate."
+    value: "120 max"
+
+# Step-by-step match flow
+matchFlow:
+  - step: 1
+    icon: "Bell"
+    title: "Match Announced"
+    description: "A webhook pings @events in Discord with the server IP, region, and a 15-minute timer. You get a 5-minute and 1-minute warning before the match starts."
+  - step: 2
+    icon: "Users"
+    title: "Join & Team Up"
+    description: "Join the server and form teams with /team invite <user>. Teams must have the exact number of players for the mode. Un-teamed players are auto-assigned."
+  - step: 3
+    icon: "Zap"
+    title: "Purge"
+    description: "If there are more players than the mode cap, a random purge kicks players until the max is reached. Whitelisted players are immune and cannot be purged."
+  - step: 4
+    icon: "Wind"
+    title: "Drop In"
+    description: "Everyone spawns on a happy ghast that flies across the map on a random route. Jump off, deploy your elytra, and fly down. The elytra disappears after 40 seconds."
+  - step: 5
+    icon: "Swords"
+    title: "Grace Period"
+    description: "For the first 2 minutes after the ghast leaves, no damage can be dealt. A countdown shows in the action bar, then a title announces PvP is enabled."
+  - step: 6
+    icon: "Trophy"
+    title: "Win"
+    description: "Be the last player or team standing. The winner is announced with a title, MVP kills are shown, and everyone returns to the lobby."
+
+# Loot tiers
+lootTiers:
+  - name: "Netherite"
+    description: "Default tier. All loot tiers can spawn in chests."
+    color: "text-stone-300"
+  - name: "Diamond"
+    description: "Only diamond and iron gear spawns in chests."
+    color: "text-sky-400"
+  - name: "Iron"
+    description: "Only iron gear spawns in chests."
+    color: "text-slate-400"
+
+# Loot details
+lootDetails:
+  - icon: "Package"
+    title: "Random Loot"
+    description: "Chests contain armour, weapons, enchants, wind charges, shields, ender pearls, steak, golden carrots, and golden apples — in random amounts, not full stacks."
+  - icon: "Wrench"
+    title: "Durability Stacking"
+    description: "Items spawn at half durability. Picking up a duplicate merges durability instead of giving you two. Once an item hits max durability, extras drop separately."
+  - icon: "BookOpen"
+    title: "Enchantment Books"
+    description: "Shift right-click to apply an enchant to a random valid item, or drag it onto a specific item. Lunge on a sword won't work — only valid combinations apply."
+
+# Chooseable special gamemodes (can stack)
+chooseableGamemodes:
+  - icon: "Utensils"
+    name: "Hungerless Spear"
+    description: "Using the spear costs no hunger. Sprinting and jumping still use hunger."
+  - icon: "Wind"
+    name: "Added Elytra"
+    description: "Elytras can spawn in random chests during the match."
+  - icon: "Sparkles"
+    name: "Crazy Enchants"
+    description: "Enchants go up to level 10 instead of the default cap (e.g. Lunge 10)."
+  - icon: "Dices"
+    name: "Random Weapon"
+    description: "Each player gets a random weapon at the start — Spear, Mace, or Sword with no enchants."
+
+# Random special gamemodes (one per game, or none)
+randomGamemodes:
+  - icon: "Heart"
+    name: "Lifesteal"
+    description: "Each kill grants an extra heart. Stack hearts and outlast everyone."
+  - icon: "Map"
+    name: "Smaller Map"
+    description: "Map shrinks to 50% size. The final zone has a 12.5-block radius instead of 25."
+  - icon: "Flame"
+    name: "Hardcore"
+    description: "The zone deals double damage compared to a normal match."
+
+# Border / zone timeline
+zoneTimeline:
+  - time: "0:00"
+    description: "Match starts. No zone visible."
+  - time: "5:00"
+    description: "Zone begins closing. 0.5 hearts / 2 seconds outside."
+  - time: "7:00"
+    description: "1 heart / 2 seconds outside."
+  - time: "9:00"
+    description: "1.5 hearts / 2 seconds outside."
+  - time: "11:00"
+    description: "2 hearts / 2 seconds outside."
+  - time: "13:00"
+    description: "3 hearts / 2 seconds outside."
+  - time: "15:00"
+    description: "4 hearts / 2 seconds outside. Final zone is 25-block radius."
+  - time: "20:00+"
+    description: "Zone shrinks 1 block / 5 seconds until closed. 5 hearts / 2 seconds outside."
+
+# Team rules
+teamRules:
+  - "Use /team invite <user> to create or join a team."
+  - "Teams must have the exact player count for the mode (2 for Duos, 4 for Squads)."
+  - "Before the purge, un-teamed players are auto-assigned to fill incomplete teams."
+  - "The purge always kicks entire teams, not individual players."
+  - "If teams aren't full but player count is at the cap, they play as-is."
+  - "Whitelisted players make their entire team immune to the purge."
+
+# Match rules
+matchRules:
+  - "Once a match starts, no one can join. Late joiners are kicked with a message to check Discord."
+  - "If a player leaves while alive, they have 60 seconds to rejoin or they die and start spectating."
+  - "Killing a player drops all their loot for anyone to pick up."
+  - "The map cannot be broken. Crafting is disabled. No block breaking."
+  - "Spectators stay in spectator mode until the match ends."
+  - "At match end, the whitelist is cleared and everyone returns to the lobby."

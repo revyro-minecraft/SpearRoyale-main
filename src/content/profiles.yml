@@ -1,0 +1,87 @@
+# ============================================================
+# Player Profiles Page Content
+# ============================================================
+# Searchable player profiles. Replace `players` with real data
+# from an API/database when available. The component reads this
+# array directly.
+# ============================================================
+
+header:
+  eyebrow: "Players"
+  title: "Player Profiles"
+  description: "Search and browse Spear Royale player profiles. See stats, ranks, and match history."
+
+# Featured player (shown at top, optional)
+featured:
+  name: "Vexinity"
+  rankTitle: "Royale"
+  wins: 1842
+  kills: 9213
+  deaths: 1204
+  score: 18420
+  matches: 2105
+  bestStreak: 23
+  joinedDate: "Jan 2026"
+
+# Player list
+players:
+  - name: "Vexinity"
+    rankTitle: "Royale"
+    wins: 1842
+    kills: 9213
+    score: 18420
+  - name: "ShadowKnight"
+    rankTitle: "Champion"
+    wins: 1701
+    kills: 8455
+    score: 17010
+  - name: "AetherBlade"
+    rankTitle: "Champion"
+    wins: 1620
+    kills: 7980
+    score: 16200
+  - name: "PhantomStrike"
+    rankTitle: "Warlord"
+    wins: 1490
+    kills: 7102
+    score: 14900
+  - name: "NebulaWolf"
+    rankTitle: "Warlord"
+    wins: 1388
+    kills: 6654
+    score: 13880
+  - name: "CryoViper"
+    rankTitle: "Warlord"
+    wins: 1275
+    kills: 6021
+    score: 12750
+  - name: "IronFist"
+    rankTitle: "Knight"
+    wins: 1190
+    kills: 5430
+    score: 11900
+  - name: "StormBreaker"
+    rankTitle: "Knight"
+    wins: 1088
+    kills: 4980
+    score: 10880
+  - name: "FrostByte"
+    rankTitle: "Knight"
+    wins: 980
+    kills: 4410
+    score: 9800
+  - name: "VoidWalker"
+    rankTitle: "Knight"
+    wins: 905
+    kills: 3970
+    score: 9050
+  - name: "Revyro"
+    rankTitle: "Royale"
+    wins: 870
+    kills: 3620
+    score: 8700
+  - name: "Devamy"
+    rankTitle: "Champion"
+    wins: 812
+    kills: 3180
+    score: 8120

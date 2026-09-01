@@ -1,0 +1,96 @@
+# ============================================================
+# Home Page Content
+# ============================================================
+# Edit the hero, server status, features, ranks preview,
+# community CTA, and final CTA shown on the homepage.
+# ============================================================
+
+hero:
+  eyebrow: "Competitive Battle Royale"
+  title: "SPEAR ROYALE"
+  titleHighlight: "ROYALE"
+  subtitle: "Your next Minecraft adventure starts here."
+  description: "Join the arena, compete in 75-player battle royale matches, progress through ranks, and become part of a community built for champions."
+  stats:
+    - value: "75"
+      label: "Players per Match"
+    - value: "12K+"
+      label: "Members"
+    - value: "24/7"
+      label: "Uptime"
+
+# Server status card — placeholder data; replace with a real API
+# in src/lib/serverStatus.ts when available.
+serverStatus:
+  players: 128
+  maxPlayers: 500
+  latencyMs: 24
+
+# "Why Spear Royale" feature cards
+whyFeatures:
+  - icon: "Swords"
+    title: "Competitive PvP"
+    description: "Fight your way to the top in 75-player battle royale matches."
+  - icon: "Trophy"
+    title: "Progression"
+    description: "Build your reputation, unlock ranks, and keep progressing every season."
+  - icon: "Users"
+    title: "Community"
+    description: "Meet other players and become part of the Spear Royale community."
+  - icon: "Gem"
+    title: "Rewards"
+    description: "Earn valuable rewards through gameplay and seasonal events."
+
+# Server features grid
+features:
+  - icon: "Swords"
+    title: "Battle Royale PvP"
+    description: "Solo, Duos, or Squads — fight to be the last player standing."
+  - icon: "Crown"
+    title: "Custom Ranks"
+    description: "Unlock visually distinct ranks with real perks and status."
+  - icon: "CalendarDays"
+    title: "Live Events"
+    description: "Matches announced via Discord with 5-minute and 1-minute warnings."
+  - icon: "BarChart3"
+    title: "Leaderboards"
+    description: "Global and seasonal rankings across every competitive mode."
+  - icon: "Sparkles"
+    title: "Special Gamemodes"
+    description: "Hungerless Spear, Crazy Enchants, Random Weapons, Lifesteal, and more."
+  - icon: "Shield"
+    title: "Fair Play"
+    description: "Active moderation, clear rules, and a strict anti-cheat policy."
+  - icon: "Map"
+    title: "Custom Maps"
+    description: "Pre-built maps with randomized flight routes every match."
+  - icon: "MessageCircle"
+    title: "Active Community"
+    description: "Active Discord, staff events, and a welcoming player base."
+
+# Ranks preview — full rank list lives in store.yml
+ranksPreview:
+  eyebrow: "Ranks"
+  title: "Climb the ladder. Earn your title."
+  description: "Every rank unlocks real perks and visible status. Progress through Knight, Warlord, Champion, and Royale."
+  viewAllText: "View All Ranks"
+  viewAllHref: "/store"
+
+# Community CTA
+community:
+  eyebrow: "Community"
+  title: "Join the community."
+  description: "Stay updated on match events, meet other players, participate in tournaments, and get announcements first. Thousands of players are already in the Discord."
+  buttonText: "Join Discord"
+  stats:
+    - "12,400+ Members"
+    - "Daily Matches"
+    - "Active Staff"
+
+# Final CTA
+finalCta:
+  eyebrow: "Ready Up"
+  title: "READY TO PLAY?"
+  description: "Join Spear Royale and start your journey today."
+  primaryButtonText: "Play Now"
+  secondaryButtonText: "Join Discord"

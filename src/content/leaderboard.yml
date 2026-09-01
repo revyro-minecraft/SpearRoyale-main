@@ -1,0 +1,85 @@
+# ============================================================
+# Leaderboard Page Content
+# ============================================================
+# Top players ranked by score. Replace the `entries` array
+# with real data from an API/database when available.
+# The component reads this array directly.
+# ============================================================
+
+header:
+  eyebrow: "Rankings"
+  title: "Leaderboard"
+  description: "The best of Spear Royale, ranked by score. Climb the ladder and earn your place at the top."
+
+# Season selector — shown as tabs above the table
+seasons:
+  - label: "Season 3"
+    active: true
+  - label: "Season 2"
+    active: false
+  - label: "All Time"
+    active: false
+
+# Top players — rank is the position (1 = first).
+# `rankTitle` is the in-game rank (Knight, Warlord, etc.)
+entries:
+  - rank: 1
+    name: "Vexinity"
+    rankTitle: "Royale"
+    wins: 1842
+    kills: 9213
+    score: 18420
+  - rank: 2
+    name: "ShadowKnight"
+    rankTitle: "Champion"
+    wins: 1701
+    kills: 8455
+    score: 17010
+  - rank: 3
+    name: "AetherBlade"
+    rankTitle: "Champion"
+    wins: 1620
+    kills: 7980
+    score: 16200
+  - rank: 4
+    name: "PhantomStrike"
+    rankTitle: "Warlord"
+    wins: 1490
+    kills: 7102
+    score: 14900
+  - rank: 5
+    name: "NebulaWolf"
+    rankTitle: "Warlord"
+    wins: 1388
+    kills: 6654
+    score: 13880
+  - rank: 6
+    name: "CryoViper"
+    rankTitle: "Warlord"
+    wins: 1275
+    kills: 6021
+    score: 12750
+  - rank: 7
+    name: "IronFist"
+    rankTitle: "Knight"
+    wins: 1190
+    kills: 5430
+    score: 11900
+  - rank: 8
+    name: "StormBreaker"
+    rankTitle: "Knight"
+    wins: 1088
+    kills: 4980
+    score: 10880
+  - rank: 9
+    name: "FrostByte"
+    rankTitle: "Knight"
+    wins: 980
+    kills: 4410
+    score: 9800
+  - rank: 10
+    name: "VoidWalker"
+    rankTitle: "Knight"
+    wins: 905
+    kills: 3970
+    score: 9050

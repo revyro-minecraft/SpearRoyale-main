@@ -1,0 +1,68 @@
+# ============================================================
+# News / Updates Page Content
+# ============================================================
+# Posts shown on the /news page. Add new posts to the top of
+# the `posts` array. `tag` is shown as a colored badge.
+# `tagColor` is a Tailwind text color class.
+# `date` is a display string.
+# `featured` marks the top post (shown larger).
+# ============================================================
+
+header:
+  eyebrow: "Latest"
+  title: "News & Updates"
+  description: "Patch notes, announcements, and event updates from the Spear Royale team."
+
+# Filter tags shown as tabs
+tags:
+  - label: "All"
+    active: true
+  - label: "Updates"
+    active: false
+  - label: "Events"
+    active: false
+  - label: "Announcements"
+    active: false
+
+# News posts
+posts:
+  - title: "Season 3 is Live — New Map, New Gamemodes"
+    tag: "Updates"
+    tagColor: "text-brand-400"
+    date: "Aug 28, 2026"
+    author: "Revyro"
+    excerpt: "Season 3 kicks off with a brand new map, the Lifesteal random gamemode, Crazy Enchants going to level 10, and a revamped leaderboard system."
+    body: "We're excited to launch Season 3 with a completely new map built from the ground up for 75-player battle royale. This season introduces the Lifesteal random gamemode where each kill grants an extra heart, Crazy Enchants that go up to level 10, and a fully reworked leaderboard with seasonal and all-time rankings. Jump in and start climbing."
+    featured: true
+
+  - title: "Weekend Tournament — 500 Score Prize Pool"
+    tag: "Events"
+    tagColor: "text-amber-400"
+    date: "Aug 25, 2026"
+    author: "Devamy"
+    excerpt: "This weekend we're running a special Squads tournament with a 500 score prize pool for the winning team. Matches start at 7 PM EU time."
+    body: "Grab your squad and get ready. This Saturday and Sunday we're running back-to-back Squads matches with a 500 score prize pool for the winning team. The @events ping will go out 15 minutes before each match. Good luck."
+
+  - title: "Anti-Cheat Update v2.4"
+    tag: "Updates"
+    tagColor: "text-brand-400"
+    date: "Aug 22, 2026"
+    author: "CryoViper"
+    excerpt: "Our anti-cheat has been updated to better detect reach, kill aura, and fly hacks. False positive rate has been reduced by 40%."
+    body: "Version 2.4 of our anti-cheat system is now live. This update improves detection of reach extensions, kill aura, and fly hacks while reducing false positives by 40%. We've also added automatic replay recording for flagged sessions so staff can review flagged players more efficiently."
+
+  - title: "New Rank: Royale"
+    tag: "Announcements"
+    tagColor: "text-fuchsia-400"
+    date: "Aug 20, 2026"
+    author: "Revyro"
+    excerpt: "Introducing Royale — the ultimate rank with unlimited homes, +50% XP, exclusive cosmetics, early event access, and a Discord role."
+    body: "Today we're launching Royale, our highest tier rank. Royale includes everything from Champion plus unlimited homes, a 50% XP boost, exclusive Royale-only cosmetics, early access to special events, and a dedicated Discord role. It's a one-time purchase — no subscription."
+
+  - title: "Server Maintenance Scheduled"
+    tag: "Announcements"
+    tagColor: "text-sky-400"
+    date: "Aug 18, 2026"
+    author: "Devamy"
+    excerpt: "The server will be down for maintenance on August 30 from 2 AM to 4 AM EU time for backend upgrades and plugin updates."
+    body: "We'll be performing scheduled maintenance on August 30 from 2 AM to 4 AM EU time. During this window the server will be offline. We're upgrading our backend infrastructure and deploying plugin updates for Season 3. Thank you for your patience."

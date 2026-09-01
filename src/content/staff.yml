@@ -1,0 +1,52 @@
+# ============================================================
+# Staff Page Content
+# ============================================================
+# Staff members shown on the /staff page.
+# `role` options: Owner, Admin, Moderator, Helper, Developer
+# `avatar` is optional — if omitted, a Minecraft head is
+# generated from the `name` field automatically.
+# ============================================================
+
+header:
+  eyebrow: "The Team"
+  title: "Our Staff"
+  description: "The people who keep Spear Royale running. Need help? Open a ticket in our Discord."
+
+# Staff roles shown as filter tabs
+roles:
+  - "Owner"
+  - "Manager"
+  - "Admin"
+  - "Moderator"
+
+# Staff members
+members:
+  - name: "Revyro"
+    role: "Owner"
+
+  - name: "FemboyNyctic"
+    role: "Manager"
+
+  - name: "Vymin"
+    role: "Manager"
+
+  - name: "TuffBanana"
+    role: "Admin"
+
+  - name: "BeboFromEU"
+    role: "Admin"
+
+  - name: "jskuryi"
+    role: "Admin"
+
+  - name: "_Cat_King_"
+    role: "Moderator"
+
+  - name: "Trissemisse"
+    role: "Moderator"
+
+  - name: "CRPT_X"
+    role: "Moderator"
+
+  - name: "LowkPeter"
+    role: "Moderator"

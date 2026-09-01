@@ -1,0 +1,88 @@
+# ============================================================
+# Rules Page Content
+# ============================================================
+# Server rules. Add, remove, or edit categories and rules.
+# `severity` can be: low, medium, high, or severe.
+# ============================================================
+
+header:
+  eyebrow: "Guidelines"
+  title: "Server Rules"
+  description: "Follow these rules to keep Spear Royale fair and fun for everyone. Ignorance of the rules is not an excuse."
+
+# Rule categories
+categories:
+  - id: "gameplay"
+    icon: "Swords"
+    name: "Gameplay Rules"
+    rules:
+      - text: "No hacking, cheating, or using unauthorized mods. This includes kill aura, reach, fly, and x-ray."
+        severity: "severe"
+      - text: "No exploiting bugs or glitches to gain an unfair advantage. Report bugs to staff immediately."
+        severity: "severe"
+      - text: "No teaming with players outside your assigned team in Solo matches."
+        severity: "high"
+      - text: "No intentional self-elimination to boost another player's stats."
+        severity: "medium"
+      - text: "No account sharing or boosting. Your account is your responsibility."
+        severity: "high"
+
+  - id: "chat"
+    icon: "MessageCircle"
+    name: "Chat & Communication"
+    rules:
+      - text: "No hate speech, racism, sexism, homophobia, or discrimination of any kind."
+        severity: "severe"
+      - text: "No harassment, doxxing, or targeting other players or staff."
+        severity: "severe"
+      - text: "No spamming, flooding chat, or excessive capital letters."
+        severity: "low"
+      - text: "No advertising other servers, Discord servers, or services without staff permission."
+        severity: "medium"
+      - text: "Keep chat in English. Other languages are fine in private messages."
+        severity: "low"
+
+  - id: "account"
+    icon: "Shield"
+    name: "Account & Security"
+    rules:
+      - text: "No inappropriate or offensive usernames or skins."
+        severity: "medium"
+      - text: "No alt accounts to bypass punishments. Alts will be banned and the main may be extended."
+        severity: "high"
+      - text: "No selling, trading, or sharing accounts."
+        severity: "high"
+      - text: "No chargeback on store purchases. This results in a permanent ban."
+        severity: "severe"
+
+  - id: "discord"
+    icon: "MessageCircle"
+    name: "Discord Rules"
+    rules:
+      - text: "Follow all Discord Terms of Service and Community Guidelines."
+        severity: "high"
+      - text: "No pinging staff for non-urgent matters. Use the ticket system for support."
+        severity: "low"
+      - text: "No NSFW content in any channel."
+        severity: "severe"
+      - text: "Keep conversations in the appropriate channels."
+        severity: "low"
+
+# Severity legend
+severityLegend:
+  - level: "low"
+    label: "Low"
+    color: "text-brand-400"
+    description: "Verbal warning or mute up to 1 hour."
+  - level: "medium"
+    label: "Medium"
+    color: "text-amber-400"
+    description: "Mute or temporary ban up to 7 days."
+  - level: "high"
+    label: "High"
+    color: "text-orange-500"
+    description: "Temporary ban 7-30 days."
+  - level: "severe"
+    label: "Severe"
+    color: "text-red-500"
+    description: "Permanent ban. No appeal."
